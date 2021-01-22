@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f6f6f6;
+}
+
+/* Moto - G */
+
+@media  only screen and  (max-width: 360px),  only screen and (max-device-width: 640px){
+    .slide{
+        width: 113%;
+        height: 64%;
+        position: absolute;
+        display: block;
+        margin: -132px 0px 0px -45px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: url(./img/image-01.png);
+        
+    }
+
+    .rec-numero{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        display: block;
+        margin: 162px 0px 0px -252px;
+        border: 0.89823px solid rgba(146, 144, 144, 0.92);
+        border-radius: 2px;
+    }
+}
+
+/* Galax - S5 */
+
+@media  only screen and  (max-width: 360px),  only screen and (max-device-width: 640px){
+
+}
+
+/* Pixel - 02 */
+
+@media  only screen and  (max-width: 411px),  only screen and (max-device-width: 731px){
+
+}
+
+/* Pixel 2 XL */
+
+@media  only screen and  (max-width: 411px),  only screen and (max-device-width: 823px){
+
+}
+
+/* Iphone 5/SE */
+
+@media  only screen and  (max-width: 320px),  only screen and (max-device-width: 568px){
+
+}
+
+/* Iphone 6/7/8 */
+
+@media  only screen and  (max-width: 375px),  only screen and (max-device-width: 667px){
+
+}
+
+/* Iphone 6/7/8 Plus */
+
+@media  only screen and  (max-width: 414px),  only screen and (max-device-width: 736px){
+
+}
+
+/* Iphone X */
+
+@media  only screen and  (max-width: 375px),  only screen and (max-device-width: 812px){
+
+}
+
+/* Ipad */
+
+@media  only screen and  (max-width: 768px),  only screen and (max-device-width: 1024px){
+
+}
+
+/* Ipad Pro */
+
+@media  only screen and  (max-width: 1024px),  only screen and (max-device-width: 1366px){
+
+}
+
+/* Surface Duo */
+
+@media  only screen and  (max-width: 540px),  only screen and (max-device-width: 720px){
+
+}
+
+/* Galaxy Fold */
+
+@media  only screen and  (max-width: 280px),  only screen and (max-device-width: 653px){
+
+}
