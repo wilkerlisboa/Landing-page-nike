@@ -9,25 +9,55 @@ body{
 
 .slide{
     width: 500px;
-    height: 600px;
+    height: 426px;
     position: absolute;
     display: block;
-    margin: 50px 0px 0px 50px;
+    margin: 50px 0px 0px 14px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background: url(./img/image-01.png);
 }
 
-
-.rec-numero{
+.numero1{
     width: 30px;
     height: 30px;
     position: absolute;
     display: block;
-    margin: 200px 0px 0px 530px;
+    margin: -140px 0px 0px -54px;
     border: 0.89823px solid rgba(146, 144, 144, 0.92);
     border-radius: 2px;
+}
+
+.numero2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    margin: -100px 0px 0px -54px;
+    border: 0.89823px solid rgba(146, 144, 144, 0.92);
+    border-radius: 2px;
+}
+
+.numero3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    margin: -57px 0px 0px -54px;
+    border: 0.89823px solid rgba(146, 144, 144, 0.92);
+    border-radius: 2px;
+}
+
+.numero4{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    margin: -16px 0px 0px -54px;
+    border: 0.89823px solid rgba(146, 144, 144, 0.92);
+    border-radius: 2px;
+    
 }
 
 #text{
@@ -60,12 +90,11 @@ body{
     width: 200px;
     height: 40px;
     position: absolute;
-    margin: 33px 0px 0px 541px;
+    margin: 8px 0px 0px 541px;
     background: black;
     border-style: none;
     border-radius: 31.5px;
     transition: 500ms;
-    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
     color: white;
     cursor: pointer;
     letter-spacing: 1px;
@@ -85,10 +114,10 @@ p{
     width: 200px;
     height: 40px;
     position: absolute;
-    margin: 33px 0px 0px 800px;
+    margin: 8px 0px 0px 800px;
     border: 1px solid #000000;
-    transition: 500ms;
-    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    background: #f6f6f6;
+    transition: 600ms;
     box-sizing: border-box;
     border-radius: 31.5px;
     cursor: pointer ;
@@ -97,8 +126,9 @@ p{
 .icon{
     width: 16px;
     height: 16px;
+    transition: 600ms;
     position: absolute;
-    margin: 46px 0px 0px 940px;
+    margin: 20px 0px 0px 940px;
     background: url(./img/heart.svg);
 }
 
@@ -106,14 +136,6 @@ p{
     width: 100px;
     height: 100px;
     cursor: pointer;
-    margin: 110px 0px 0px 541px;
+    margin: 66px 0px 0px 541px;
     background: url(./img/icon-07.png);
-}
-
-#opcao-02{
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-    margin: -100px 0px 0px 693px;
-    background: url(./img/icon-08.png);
 }
