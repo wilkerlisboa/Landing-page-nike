@@ -139,3 +139,10 @@ p{
     margin: 66px 0px 0px 541px;
     background: url(./img/icon-07.png);
 }
+
+footer{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    
+}

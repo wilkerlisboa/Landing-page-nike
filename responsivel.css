@@ -134,6 +134,13 @@ body{
         margin: -495px 0px 0px 22px;
         background: url(./img/icon-07.png);
     }
+
+    footer{
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        margin: 610px 0px 0px 47px;
+    }
 }
 
 /* Galax - S5 */
@@ -262,6 +269,13 @@ body{
         cursor: pointer;
         margin: -495px 0px 0px 22px;
         background: url(./img/icon-07.png);
+    }
+
+    footer{
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        margin: 610px 0px 0px 47px;
     }
 }
 
