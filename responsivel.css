@@ -16,7 +16,7 @@ body{
         height: 64%;
         position: absolute;
         display: block;
-        margin: -97px 0px 0px 15px;
+        margin: -97px 0px 0px 17px;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -136,7 +136,7 @@ body{
         cursor: pointer;
         text-decoration: none;
         color: black;
-        margin: 610px 0px 0px 47px;
+        margin: 620px 0px 0px 47px;
     }
 }
 
