@@ -283,58 +283,76 @@ body{
 
 @media  only screen and  (max-width: 411px),  only screen and (max-device-width: 731px){
 
-}
+    .slide{
+        width: 85%;
+        height: 36%;
+        position: absolute;
+        display: block;
+        margin: -88px 0px 0px 29px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: url(./img/img-Mobile/img-Mobile-1.png);
+    }
 
-/* Pixel 2 XL */
+    #first-title{
+        width: 350px;
+        font-size: 25px;
+        line-height: 22px;
+        font-weight: bold;
+        font-style: normal;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
 
-@media  only screen and  (max-width: 411px),  only screen and (max-device-width: 823px){
+    #second-title{
+        font-size: 12px;
+    line-height: 19px;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
 
-}
+    #button-01{
+        width: 200px;
+        height: 40px;
+        position: absolute;
+        margin: 51px 0px 0px 57px;
+        background: black;
+        border-style: none;
+        border-radius: 31.5px;
+        transition: 500ms;
+        color: white;
+        cursor: pointer;
+        letter-spacing: 1px;
+    }
 
-/* Iphone 5/SE */
+    #button-02{
+        width: 200px;
+        height: 40px;
+        position: absolute;
+        margin: 105px 0px 0px 57px;
+        border: 1px solid #000000;
+        background: #f6f6f6;
+        transition: 600ms;
+        box-sizing: border-box;
+        border-radius: 31.5px;
+        cursor: pointer;
+    }
 
-@media  only screen and  (max-width: 320px),  only screen and (max-device-width: 568px){
+    .icon{
+        width: 16px;
+        height: 16px;
+        transition: 600ms;
+        position: absolute;
+        margin: 117px 0px 0px 202px;
+        background: url(./img/heart.svg);
+    }
 
-}
-
-/* Iphone 6/7/8 */
-
-@media  only screen and  (max-width: 375px),  only screen and (max-device-width: 667px){
-
-}
-
-/* Iphone 6/7/8 Plus */
-
-@media  only screen and  (max-width: 414px),  only screen and (max-device-width: 736px){
-
-}
-
-/* Iphone X */
-
-@media  only screen and  (max-width: 375px),  only screen and (max-device-width: 812px){
-
-}
-
-/* Ipad */
-
-@media  only screen and  (max-width: 768px),  only screen and (max-device-width: 1024px){
-
-}
-
-/* Ipad Pro */
-
-@media  only screen and  (max-width: 1024px),  only screen and (max-device-width: 1366px){
-
-}
-
-/* Surface Duo */
-
-@media  only screen and  (max-width: 540px),  only screen and (max-device-width: 720px){
-
-}
-
-/* Galaxy Fold */
-
-@media  only screen and  (max-width: 280px),  only screen and (max-device-width: 653px){
-
+    footer{
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        margin: 632px 0px 0px 47px;
+    }
 }
