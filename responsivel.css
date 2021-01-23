@@ -10,9 +10,6 @@ body{
 /* Moto - G */
 
 @media  only screen and  (max-width: 360px),  only screen and (max-device-width: 640px){
-    body{
-        overflow: hidden;
-    }
 
     .slide{
         width: 85%;
@@ -146,16 +143,12 @@ body{
 /* Galax - S5 */
 
 @media  only screen and  (max-width: 360px),  only screen and (max-device-width: 640px){
-    body{
-        overflow: hidden;
-    }
-
     .slide{
         width: 85%;
         height: 64%;
         position: absolute;
         display: block;
-        margin: -90px 0px 0px 9px;
+        margin: -90px 0px 0px 17px;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -275,84 +268,6 @@ body{
         cursor: pointer;
         text-decoration: none;
         color: black;
-        margin: 610px 0px 0px 47px;
-    }
-}
-
-/* Pixel - 02 */
-
-@media  only screen and  (max-width: 411px),  only screen and (max-device-width: 731px){
-
-    .slide{
-        width: 85%;
-        height: 36%;
-        position: absolute;
-        display: block;
-        margin: -88px 0px 0px 29px;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background: url(./img/img-Mobile/img-Mobile-1.png);
-    }
-
-    #first-title{
-        width: 350px;
-        font-size: 25px;
-        line-height: 22px;
-        font-weight: bold;
-        font-style: normal;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    #second-title{
-        font-size: 12px;
-    line-height: 19px;
-    font-weight: bold;
-    font-style: normal;
-    margin-top: 12px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    #button-01{
-        width: 200px;
-        height: 40px;
-        position: absolute;
-        margin: 51px 0px 0px 57px;
-        background: black;
-        border-style: none;
-        border-radius: 31.5px;
-        transition: 500ms;
-        color: white;
-        cursor: pointer;
-        letter-spacing: 1px;
-    }
-
-    #button-02{
-        width: 200px;
-        height: 40px;
-        position: absolute;
-        margin: 105px 0px 0px 57px;
-        border: 1px solid #000000;
-        background: #f6f6f6;
-        transition: 600ms;
-        box-sizing: border-box;
-        border-radius: 31.5px;
-        cursor: pointer;
-    }
-
-    .icon{
-        width: 16px;
-        height: 16px;
-        transition: 600ms;
-        position: absolute;
-        margin: 117px 0px 0px 202px;
-        background: url(./img/heart.svg);
-    }
-
-    footer{
-        cursor: pointer;
-        text-decoration: none;
-        color: black;
-        margin: 632px 0px 0px 47px;
+        margin: 620px 0px 0px 47px;
     }
 }
