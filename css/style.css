@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f6f6f6;
+}
+
+.slide{
+    width: 500px;
+    height: 426px;
+    position: absolute;
+    display: block;
+    margin: 50px 0px 0px 14px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../img/image-01.png);
+}
+
+.numero1{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    margin: -140px 0px 0px -54px;
+    border: 0.89823px solid rgba(146, 144, 144, 0.92);
+    border-radius: 2px;
+}
+
+.numero2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    margin: -100px 0px 0px -54px;
+    border: 0.89823px solid rgba(146, 144, 144, 0.92);
+    border-radius: 2px;
+}
+
+.numero3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    margin: -57px 0px 0px -54px;
+    border: 0.89823px solid rgba(146, 144, 144, 0.92);
+    border-radius: 2px;
+}
+
+.numero4{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    margin: -16px 0px 0px -54px;
+    border: 0.89823px solid rgba(146, 144, 144, 0.92);
+    border-radius: 2px;
+    
+}
+
+#text{
+    width: 500px;
+    height: 300px;
+    margin: 60px 0px 0px 580px;
+    
+}
+
+#first-title{
+    width: 600px;
+    
+    font-size: 36px;
+    line-height: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#second-title{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#button-01{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    margin: 8px 0px 0px 541px;
+    background: black;
+    border-style: none;
+    border-radius: 31.5px;
+    transition: 500ms;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+a{
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+p{
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+#button-02{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    margin: 8px 0px 0px 800px;
+    border: 1px solid #000000;
+    background: #f6f6f6;
+    transition: 600ms;
+    box-sizing: border-box;
+    border-radius: 31.5px;
+    cursor: pointer ;
+}
+
+.icon{
+    width: 16px;
+    height: 16px;
+    transition: 600ms;
+    position: absolute;
+    margin: 20px 0px 0px 940px;
+    background: url(./img/heart.svg);
+}
+
+#opcao{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin: 66px 0px 0px 541px;
+    background: url(./img/icon-07.png);
+}
+
+footer{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    line-height: 25px;
+    margin-top: -10%;
+}
+
+/*
+    
+    
+ ____      ____  _____    _____      ___  ____    ________   _______     
+|_  _|    |_  _||_   _|  |_   _|    |_  ||_  _|  |_   __  | |_   __ \    
+  \ \  /\  / /    | |      | |        | |_/ /      | |_ \_|   | |__) |   
+   \ \/  \/ /     | |      | |   _    |  __'.      |  _| _    |  __ /    
+    \  /\  /     _| |_    _| |__/ |  _| |  \ \_   _| |__/ |  _| |  \ \_  
+     \/  \/     |_____|  |________| |____||____| |________| |____| |___| 
+                                                                         
+   
+*/
