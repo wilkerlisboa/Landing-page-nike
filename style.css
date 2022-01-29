@@ -144,5 +144,6 @@ footer{
     cursor: pointer;
     text-decoration: none;
     color: black;
-    
+    line-height: 25px;
+    margin-top: -10%;
 }
