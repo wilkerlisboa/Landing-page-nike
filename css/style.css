@@ -121,8 +121,8 @@ li{
     flex-direction: row;
     flex-wrap: nowrap;
     position: absolute;
-    margin-top: -17%;
-    margin-left: 55%;
+    margin-top: 15%;
+    margin-left: 40%;
     align-items: center;
     justify-content: flex-start;
 }
