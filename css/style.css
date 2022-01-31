@@ -68,8 +68,50 @@ ul, li, a{
 li{
     margin-bottom: 30%;
     border-style: solid;
-    border-color: #696666;
-    color: #696666;
+    border-color: #000;
+    color: #000;
+}
+/*BUTTONS OF THE BUY*/
+#buttons{
+    width: 40%;
+    height: 10%;
+    margin-left: 50%;
+    margin-top: 17%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.cart{
+    width: 55%;
+    display: flex;
+    height: 50%;
+    color: #fff;
+    background: #000;
+    border-color: #000;
+    border-style: solid;
+    text-align: -webkit-center;
+    border-radius: 100px 100px 100px 100px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.pet{
+    width: 55%;
+    display: flex;
+    height: 50%;
+    color: #000;
+    margin-left: 14%;
+    border-style: solid;
+    text-align: -webkit-center;
+    border-radius: 100px 100px 100px 100px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 /*
     
