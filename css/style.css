@@ -76,7 +76,7 @@ li{
     width: 40%;
     height: 10%;
     margin-left: 50%;
-    margin-top: 17%;
+    margin-top: 31%;
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -112,6 +112,36 @@ li{
     align-content: center;
     justify-content: center;
     flex-wrap: nowrap;
+}
+/*COLOR OF SNEAKERS*/
+.color_sneakers{
+    width: 30%;
+    height: 11%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    margin-top: -17%;
+    margin-left: 55%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.black{
+    width: 15%;
+    height: 89%;
+    background: url(../icon/icon-07.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.white{
+    width: 15%;
+    height: 89%;
+    margin-left: 8%;
+    background: url(../icon/icon-08.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*
     
