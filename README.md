@@ -2,7 +2,7 @@
 landing page inspired by nike
 
 ## Desktop
-<div src="https://user-images.githubusercontent.com/73085812/152659381-9348e0e1-7e5e-4adf-9d8e-b8117f16e3ae.png" style="width: 20%; height: 20%;"></div>
+<img src="https://user-images.githubusercontent.com/73085812/152659381-9348e0e1-7e5e-4adf-9d8e-b8117f16e3ae.png" style="width: 50%; height: 50%;"></img>
 
 
 ## Mobile
